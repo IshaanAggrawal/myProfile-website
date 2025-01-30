@@ -1,0 +1,121 @@
+@import url(https://db.onlinewebfonts.com/c/840c587995af767e3b9cd09ab83f946d?family=Font+AwEsome+6+Brands+Regular);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Font Awesome 6 Brands Regular", "Comic Sans MS";
+    font-size: 20px;
+}
+body {
+    height: 100vh;
+    position: relative;
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navbar {
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+}
+
+.navoptions a {
+    font-family: "Comic Sans MS", sans-serif;
+    height: 30px;
+    padding-left: 80px;
+    justify-content: space-evenly;
+    display: inline;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    transition-duration: 1s;
+}
+
+#codeinfo {
+    color: red;
+    text-decoration: underline;
+    padding-left:80px;
+}
+#feed{
+    padding-right: 80px;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.logo {
+    padding-right: 400px;
+    padding-left: 30px;
+}
+.leetcodeinfo,.hackcodeinfo{
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom right, #FFCF1B, #ff881b);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.leetcodeinfo a {
+    /* color: #008970; */
+    color: #fff2af;
+    font-family: "Comic Sans MS";
+    font-weight:300;
+}
+
+#codesign {
+    color: red;
+    font-size: 35px;
+}
+.hackcodeinfo a {
+     /* color: #008970;  */
+    color:#fff2af; 
+    font-family: "Comic Sans MS";
+    font-weight:300;
+}
+main {
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Keeps content above the video */
+}
+
+.profilephoto {
+    margin-left: 120px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.profilephoto img {
+    border-radius: 50%;
+    transition-duration: 2s;
+    background-image:url("src/Designer.jpeg");
+    background-size: cover;
+    filter: blur(0.2px);
+}
+
+.profilephoto img:hover {
+    height: 290px;
+    width: 290px;
+}
+.hackcodeinfo{
+    background-image: linear-gradient(to bottom right, #ffa62e, #ea4d2c);
+}

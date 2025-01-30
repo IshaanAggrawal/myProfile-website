@@ -1,0 +1,152 @@
+@import url(https://db.onlinewebfonts.com/c/840c587995af767e3b9cd09ab83f946d?family=Font+AwEsome+6+Brands+Regular);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Font Awesome 6 Brands Regular", "Comic Sans MS";
+    font-size: 20px;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Places the video behind content */
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video covers the entire background */
+    z-index: -1;
+}
+
+.navbar {
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    z-index: 1; /* Keeps the navbar above the video */
+}
+
+.navoptions a {
+    font-family: "Comic Sans MS", sans-serif;
+    height: 30px;
+    padding-left: 80px;
+    justify-content: space-evenly;
+    display: inline;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    transition-duration: 1s;
+}
+#homered{
+color:red;
+text-decoration: underline;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.logo {
+    padding-right: 470px;
+    padding-left: 30px;
+}
+
+main {
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Keeps content above the video */
+}
+
+.profilephoto {
+    margin-left: 120px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.profilephoto img {
+    border-radius: 50%;
+    transition-duration: 2s;
+}
+
+.profilephoto img:hover {
+    height: 325px;
+    width: 325px;
+}
+
+.uptext {
+    margin-left: 40px;
+    height: 200px;
+    transition-property: none;
+}
+
+#whitegreet {
+    justify-content: space-evenly;
+    color: whitesmoke;
+    font-size: 45px;
+    display: inline;
+    padding-right: 20px;
+    font-weight: 90;
+}
+
+#colorname {
+    justify-content: space-evenly;
+    color: red;
+    font-size: 50px;
+    display: inline;
+    font-weight: 90;
+}
+
+#whiteself {
+    color: whitesmoke;
+    font-size: 35px;
+    display: inline;
+    padding-right: 20px;
+}
+
+#colorwork {
+    color: red;
+    font-size: 40px;
+    display: inline;
+}
+
+.Aboutinfo {
+    margin-top: 20px;
+}
+
+.Aboutinfo a {
+    color: white;
+    font-family: "Comic Sans MS";
+    font-weight:300;
+}
+
+#codesign {
+    color: red;
+    font-size: 35px; 
+}
+
+.footer {
+    margin-left: 460px;
+    margin-top: 40px;
+}
+
+.footer i {
+    color: red;
+    padding-right: 40px;
+}
+
+.footer i:hover {
+    font-size: 30px;
+    transition-duration: 1.2s;
+}
